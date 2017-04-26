@@ -1,6 +1,6 @@
 # npmdoc-ungit
 
-#### api documentation for  [ungit (v1.1.14)](https://github.com/FredrikNoren/ungit#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-ungit.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ungit) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ungit.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ungit)
+#### basic api documentation for  [ungit (v1.1.14)](https://github.com/FredrikNoren/ungit#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-ungit.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ungit) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ungit.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ungit)
 
 #### Git made easy
 
