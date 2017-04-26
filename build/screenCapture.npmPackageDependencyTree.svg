@@ -65,9 +65,9 @@
 <tspan x="10" y="1002">  │ ├── encodeurl@1.0.1 </tspan>
 <tspan x="10" y="1018">  │ ├── escape-html@1.0.3 </tspan>
 <tspan x="10" y="1034">  │ ├── etag@1.8.0 </tspan>
-<tspan x="10" y="1050">  │ ├─┬ finalhandler@1.0.1 </tspan>
-<tspan x="10" y="1066">  │ │ ├─┬ debug@2.6.3 </tspan>
-<tspan x="10" y="1082">  │ │ │ └── ms@0.7.2 </tspan>
+<tspan x="10" y="1050">  │ ├─┬ finalhandler@1.0.2 </tspan>
+<tspan x="10" y="1066">  │ │ ├─┬ debug@2.6.4 </tspan>
+<tspan x="10" y="1082">  │ │ │ └── ms@0.7.3 </tspan>
 <tspan x="10" y="1098">  │ │ ├── encodeurl@1.0.1  deduped</tspan>
 <tspan x="10" y="1114">  │ │ ├── escape-html@1.0.3  deduped</tspan>
 <tspan x="10" y="1130">  │ │ ├── on-finished@2.3.0  deduped</tspan>
@@ -695,7 +695,7 @@
 <tspan x="10" y="11082">  │ │ │ └── util-deprecate@1.0.2 </tspan>
 <tspan x="10" y="11098">  │ │ └── typedarray@0.0.6 </tspan>
 <tspan x="10" y="11114">  │ ├── graceful-fs@4.1.11 </tspan>
-<tspan x="10" y="11130">  │ ├─┬ normalize-package-data@2.3.6 </tspan>
+<tspan x="10" y="11130">  │ ├─┬ normalize-package-data@2.3.8 </tspan>
 <tspan x="10" y="11146">  │ │ ├── hosted-git-info@2.4.2 </tspan>
 <tspan x="10" y="11162">  │ │ ├─┬ is-builtin-module@1.0.0 </tspan>
 <tspan x="10" y="11178">  │ │ │ └── builtin-modules@1.1.1 </tspan>
@@ -713,7 +713,7 @@
 <tspan x="10" y="11370">  │ │ └─┬ validate-npm-package-name@3.0.0 </tspan>
 <tspan x="10" y="11386">  │ │   └── builtins@1.0.3 </tspan>
 <tspan x="10" y="11402">  │ ├─┬ npmlog@4.0.2 </tspan>
-<tspan x="10" y="11418">  │ │ ├─┬ are-we-there-yet@1.1.2 </tspan>
+<tspan x="10" y="11418">  │ │ ├─┬ are-we-there-yet@1.1.4 </tspan>
 <tspan x="10" y="11434">  │ │ │ ├── delegates@1.0.0 </tspan>
 <tspan x="10" y="11450">  │ │ │ └─┬ readable-stream@2.2.9 </tspan>
 <tspan x="10" y="11466">  │ │ │   ├── buffer-shims@1.0.0  deduped</tspan>
@@ -725,7 +725,7 @@
 <tspan x="10" y="11562">  │ │ │   │ └── buffer-shims@1.0.0  deduped</tspan>
 <tspan x="10" y="11578">  │ │ │   └── util-deprecate@1.0.2  deduped</tspan>
 <tspan x="10" y="11594">  │ │ ├── console-control-strings@1.1.0 </tspan>
-<tspan x="10" y="11610">  │ │ ├─┬ gauge@2.7.3 </tspan>
+<tspan x="10" y="11610">  │ │ ├─┬ gauge@2.7.4 </tspan>
 <tspan x="10" y="11626">  │ │ │ ├── aproba@1.1.1 </tspan>
 <tspan x="10" y="11642">  │ │ │ ├── console-control-strings@1.1.0  deduped</tspan>
 <tspan x="10" y="11658">  │ │ │ ├── has-unicode@2.0.1 </tspan>
@@ -781,7 +781,7 @@
 <tspan x="10" y="12458">  │ │ │   │ └── assert-plus@1.0.0 </tspan>
 <tspan x="10" y="12474">  │ │ │   ├─┬ ecc-jsbn@0.1.1 </tspan>
 <tspan x="10" y="12490">  │ │ │   │ └── jsbn@0.1.1  deduped</tspan>
-<tspan x="10" y="12506">  │ │ │   ├─┬ getpass@0.1.6 </tspan>
+<tspan x="10" y="12506">  │ │ │   ├─┬ getpass@0.1.7 </tspan>
 <tspan x="10" y="12522">  │ │ │   │ └── assert-plus@1.0.0 </tspan>
 <tspan x="10" y="12538">  │ │ │   ├─┬ jodid25519@1.0.2 </tspan>
 <tspan x="10" y="12554">  │ │ │   │ └── jsbn@0.1.1  deduped</tspan>
@@ -966,7 +966,7 @@
 <tspan x="10" y="15418">    │   │ ├── pinkie-promise@2.0.1  deduped</tspan>
 <tspan x="10" y="15434">    │   │ └─┬ strip-bom@2.0.0 </tspan>
 <tspan x="10" y="15450">    │   │   └── is-utf8@0.2.1 </tspan>
-<tspan x="10" y="15466">    │   ├── normalize-package-data@2.3.6  deduped</tspan>
+<tspan x="10" y="15466">    │   ├── normalize-package-data@2.3.8  deduped</tspan>
 <tspan x="10" y="15482">    │   └─┬ path-type@1.1.0 </tspan>
 <tspan x="10" y="15498">    │     ├── graceful-fs@4.1.11  deduped</tspan>
 <tspan x="10" y="15514">    │     ├── pify@2.3.0  deduped</tspan>

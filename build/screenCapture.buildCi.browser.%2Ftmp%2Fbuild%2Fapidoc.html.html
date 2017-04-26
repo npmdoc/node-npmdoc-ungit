@@ -56,34 +56,13 @@
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_promise">
-            function <span class="apidocSignatureSpan">ungit.</span>git_promise
-            <span class="apidocSignatureSpan">(commands, repoPath, allowError, outPipe, inPipe, timeout)</span>
-            </a>
-
-        </li>
-
-        <li>
-
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">ungit.</span>address_parser</span>
 
         </li>
 
         <li>
 
-            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">ungit.</span>git_api</span>
-
-        </li>
-
-        <li>
-
-            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">ungit.</span>git_parser</span>
-
-        </li>
-
-        <li>
-
-            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">ungit.</span>sysinfo</span>
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">ungit.</span>hover_actions</span>
 
         </li>
 
@@ -102,283 +81,40 @@
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.ungit.git_api">module ungit.git_api</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.ungit.hover_actions">module ungit.hover_actions</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_api.registerApi">
-            function <span class="apidocSignatureSpan">ungit.git_api.</span>registerApi
-            <span class="apidocSignatureSpan">(env)</span>
+            <a class="apidocElementLiA" href="#apidoc.element.ungit.hover_actions.MergeViewModel">
+            function <span class="apidocSignatureSpan">ungit.hover_actions.</span>MergeViewModel
+            <span class="apidocSignatureSpan">(graph, headNode, node)</span>
             </a>
 
         </li>
 
         <li>
 
-            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">ungit.git_api.</span>pathPrefix</span>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.ungit.git_parser">module ungit.git_parser</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_parser.parseGitBranches">
-            function <span class="apidocSignatureSpan">ungit.git_parser.</span>parseGitBranches
-            <span class="apidocSignatureSpan">(text)</span>
+            <a class="apidocElementLiA" href="#apidoc.element.ungit.hover_actions.PushViewModel">
+            function <span class="apidocSignatureSpan">ungit.hover_actions.</span>PushViewModel
+            <span class="apidocSignatureSpan">(fromNode, toNode)</span>
             </a>
 
         </li>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_parser.parseGitConfig">
-            function <span class="apidocSignatureSpan">ungit.git_parser.</span>parseGitConfig
-            <span class="apidocSignatureSpan">(text)</span>
+            <a class="apidocElementLiA" href="#apidoc.element.ungit.hover_actions.RebaseViewModel">
+            function <span class="apidocSignatureSpan">ungit.hover_actions.</span>RebaseViewModel
+            <span class="apidocSignatureSpan">(onto, nodesThatWillMove)</span>
             </a>
 
         </li>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_parser.parseGitLog">
-            function <span class="apidocSignatureSpan">ungit.git_parser.</span>parseGitLog
-            <span class="apidocSignatureSpan">(data)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_parser.parseGitLsRemote">
-            function <span class="apidocSignatureSpan">ungit.git_parser.</span>parseGitLsRemote
-            <span class="apidocSignatureSpan">(text)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_parser.parseGitRemotes">
-            function <span class="apidocSignatureSpan">ungit.git_parser.</span>parseGitRemotes
-            <span class="apidocSignatureSpan">(text)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_parser.parseGitStashShow">
-            function <span class="apidocSignatureSpan">ungit.git_parser.</span>parseGitStashShow
-            <span class="apidocSignatureSpan">(text)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_parser.parseGitStatus">
-            function <span class="apidocSignatureSpan">ungit.git_parser.</span>parseGitStatus
-            <span class="apidocSignatureSpan">(text, args)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_parser.parseGitStatusNumstat">
-            function <span class="apidocSignatureSpan">ungit.git_parser.</span>parseGitStatusNumstat
-            <span class="apidocSignatureSpan">(text)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_parser.parseGitSubmodule">
-            function <span class="apidocSignatureSpan">ungit.git_parser.</span>parseGitSubmodule
-            <span class="apidocSignatureSpan">(text, args)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_parser.parseGitTags">
-            function <span class="apidocSignatureSpan">ungit.git_parser.</span>parseGitTags
-            <span class="apidocSignatureSpan">(text)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_parser.parsePatchDiffResult">
-            function <span class="apidocSignatureSpan">ungit.git_parser.</span>parsePatchDiffResult
-            <span class="apidocSignatureSpan">(patchLineList, text)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.ungit.git_promise">module ungit.git_promise</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_promise.git_promise">
-            function <span class="apidocSignatureSpan">ungit.</span>git_promise
-            <span class="apidocSignatureSpan">(commands, repoPath, allowError, outPipe, inPipe, timeout)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_promise.applyPatchedDiff">
-            function <span class="apidocSignatureSpan">ungit.git_promise.</span>applyPatchedDiff
-            <span class="apidocSignatureSpan">(repoPath, patchedDiff)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_promise.binaryFileContent">
-            function <span class="apidocSignatureSpan">ungit.git_promise.</span>binaryFileContent
-            <span class="apidocSignatureSpan">(repoPath, filename, version, outPipe)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_promise.commit">
-            function <span class="apidocSignatureSpan">ungit.git_promise.</span>commit
-            <span class="apidocSignatureSpan">(repoPath, amend, message, files)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_promise.diffFile">
-            function <span class="apidocSignatureSpan">ungit.git_promise.</span>diffFile
-            <span class="apidocSignatureSpan">(repoPath, filename, sha1, ignoreWhiteSpace)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_promise.discardAllChanges">
-            function <span class="apidocSignatureSpan">ungit.git_promise.</span>discardAllChanges
-            <span class="apidocSignatureSpan">(repoPath)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_promise.discardChangesInFile">
-            function <span class="apidocSignatureSpan">ungit.git_promise.</span>discardChangesInFile
-            <span class="apidocSignatureSpan">(repoPath, filename)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_promise.getCurrentBranch">
-            function <span class="apidocSignatureSpan">ungit.git_promise.</span>getCurrentBranch
-            <span class="apidocSignatureSpan">(repoPath)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_promise.getRemoteAddress">
-            function <span class="apidocSignatureSpan">ungit.git_promise.</span>getRemoteAddress
-            <span class="apidocSignatureSpan">(repoPath, remoteName)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_promise.log">
-            function <span class="apidocSignatureSpan">ungit.git_promise.</span>log
-            <span class="apidocSignatureSpan">(path, limit, skip, maxSearchIteration)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_promise.resolveConflicts">
-            function <span class="apidocSignatureSpan">ungit.git_promise.</span>resolveConflicts
-            <span class="apidocSignatureSpan">(repoPath, files)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_promise.revParse">
-            function <span class="apidocSignatureSpan">ungit.git_promise.</span>revParse
-            <span class="apidocSignatureSpan">(repoPath)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_promise.stashExecuteAndPop">
-            function <span class="apidocSignatureSpan">ungit.git_promise.</span>stashExecuteAndPop
-            <span class="apidocSignatureSpan">(commands, repoPath, allowError, outPipe, inPipe, timeout)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.git_promise.status">
-            function <span class="apidocSignatureSpan">ungit.git_promise.</span>status
-            <span class="apidocSignatureSpan">(repoPath, file)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.ungit.sysinfo">module ungit.sysinfo</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.sysinfo.getGitVersionInfo">
-            function <span class="apidocSignatureSpan">ungit.sysinfo.</span>getGitVersionInfo
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.sysinfo.getUngitLatestVersion">
-            function <span class="apidocSignatureSpan">ungit.sysinfo.</span>getUngitLatestVersion
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ungit.sysinfo.getUserHash">
-            function <span class="apidocSignatureSpan">ungit.sysinfo.</span>getUserHash
-            <span class="apidocSignatureSpan">()</span>
+            <a class="apidocElementLiA" href="#apidoc.element.ungit.hover_actions.ResetViewModel">
+            function <span class="apidocSignatureSpan">ungit.hover_actions.</span>ResetViewModel
+            <span class="apidocSignatureSpan">(nodes)</span>
             </a>
 
         </li>
@@ -389,42 +125,6 @@
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.ungit" id="apidoc.module.ungit">module ungit</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.git_promise" id="apidoc.element.ungit.git_promise">
-        function <span class="apidocSignatureSpan">ungit.</span>git_promise
-        <span class="apidocSignatureSpan">(commands, repoPath, allowError, outPipe, inPipe, timeout)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">(commands, repoPath, allowError, outPipe, inPipe, timeout) =&gt; {
-  let args = {};
-  if (Array.isArray(commands)) {
-    args.commands = commands;
-    args.repoPath = repoPath;
-    args.outPipe = outPipe;
-    args.inPipe = inPipe;
-    args.allowError = allowError;
-  } else {
-    args = commands;
-  }
-
-  args.commands = gitConfigArguments.concat(args.commands.filter((element) =&gt; {
-    return element;
-  }));
-  args.timeout = args.timeout || 2 * 60 * 1000; // Default timeout tasks after 2 min
-  args.startTime = Date.now();
-
-  return gitExecutorProm(args, config.lockConflictRetryCount);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-
-
 
 
 
@@ -473,21 +173,21 @@ pop() };
   return { address: remote };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-
-  return status;
 });
-}
+this.cloneUrl = ko.observable();
+this.showDirectoryCreatedAlert = ko.observable(false);
+this.cloneDestinationImplicit = ko.computed(function() {
+  var defaultText = 'destination folder';
+  if (!self.cloneUrl()) return defaultText;
 
-git.getRemoteAddress = (repoPath, remoteName) =&gt; {
-return git(['config', '--get', `remote.${remoteName}.url`], repoPath)
-  .then((text) =&gt; addressParser.<span class="apidocCodeKeywordSpan">parseAddress</span>(text.split('\n')[0]));
+  var parsedAddress = addressParser.<span class="apidocCodeKeywordSpan">parseAddress</span>(self.cloneUrl());
+  return parsedAddress.shortProject || defaultText;
+});
+this.cloneDestination = ko.observable();
+this.repository = ko.observable();
 }
-
-git.resolveConflicts = (repoPath, files) =&gt; {
-const toAdd = [];
-const toRemove = [];
-return Bluebird.all((files || []).map((file) =&gt; {
-  return fs.isExists(path.join(repoPath, file)).then((isExist) =&gt; {
+PathViewModel.prototype.updateNode = function(parentElement) {
+ko.renderTemplate('path', this, {}, parentElement);
 ...</pre></li>
     </ul>
 
@@ -495,160 +195,26 @@ return Bluebird.all((files || []).map((file) =&gt; {
 </div>
 
 <div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.ungit.git_api" id="apidoc.module.ungit.git_api">module ungit.git_api</a></h1>
+<h1><a href="#apidoc.module.ungit.hover_actions" id="apidoc.module.ungit.hover_actions">module ungit.hover_actions</a></h1>
 
 
     <h2>
-        <a href="#apidoc.element.ungit.git_api.registerApi" id="apidoc.element.ungit.git_api.registerApi">
-        function <span class="apidocSignatureSpan">ungit.git_api.</span>registerApi
-        <span class="apidocSignatureSpan">(env)</span>
+        <a href="#apidoc.element.ungit.hover_actions.MergeViewModel" id="apidoc.element.ungit.hover_actions.MergeViewModel">
+        function <span class="apidocSignatureSpan">ungit.hover_actions.</span>MergeViewModel
+        <span class="apidocSignatureSpan">(graph, headNode, node)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">(env) =&gt; {
-  const app = env.app;
-  const server = env.server;
-  const ensureAuthenticated = env.ensureAuthenticated || ((req, res, next) =&gt; next());
-  const config = env.config;
-  const io = env.socketIO;
-  const socketsById = env.socketsById || {};
+    <li>description and source-code<pre class="apidocCodePre">function MergeViewModel(graph, headNode, node) {
+  var self = this;
+  HoverViewModel.call(this);
+  this.graph = graph;
+  this.bgEdges = [ getEdgeModel(headNode.cx(), (headNode.cy() - 110), headNode.cx(), headNode.cy()),
+                getEdgeModel(headNode.cx(), (headNode.cy() - 110), node.cx(), node.cy()) ];
+  this.nodes = [ getNodeModel(headNode.cx(), headNode.cy() - 110, Math.max(headNode.r(), node.r()), '#252833', '#41DE3C', '8', '
+10, 5') ];
 
-  if (config.dev) temp.track();
-
-  if (io) {
-    io.sockets.on('connection', (socket) =&gt; {
-      socket.on('disconnect', () =&gt; { stopDirectoryWatch(socket); });
-      socket.on('watch', (data, callback) =&gt; {
-        stopDirectoryWatch(socket); // clean possibly lingering connections
-        socket.join(path.normalize(data.path)); // join room for this path
-        socket.watcherPath = data.path;
-
-        const watchPath = (subFolders, watchers, options) =&gt; {
-          const watcherPath = path.join(data.path, ...subFolders);
-          const relativPath = subFolders.length &gt; 0 ? path.join(...subFolders) : '';
-
-          const runOnFileWatchEvent = (event, filename) =&gt; {
-            if (filename === null) return;
-            const filePath = path.join(relativPath, filename);
-            if (isFileWatched(filePath, socket.ignore)) {
-              winston.info(`FILE WATCH TRIGGERED: ${filePath}`);
-              emitGitDirectoryChanged(data.path);
-              emitWorkingTreeChanged(data.path);
-            }
-          };
-
-          return fs.isExists(watcherPath).then((isExists) =&gt; {
-            if (isExists) watchers.push(fs.watch(watcherPath, options || {}, runOnFileWatchEvent));
-          })
-        };
-
-        fs.readFileAsync(path.join(data.path, ".gitignore"))
-          .then((ignoreContent) =&gt; socket.ignore = ignore().add(ignoreContent.toString()))
-          .catch(() =&gt; {})
-          .then(() =&gt; {
-            socket.watcher = [];
-            watchPath([], socket.watcher, {"recursive": true});
-            winston.info(`Start watching ${socket.watcherPath} recursively`);
-
-            if (!isMac &amp;&amp; !isWindows) {
-              // recursive fs.watch only works on mac and windows
-              watchPath(['.git', 'HEAD'], socket.watcher);
-              watchPath(['.git', 'refs', 'heads'], socket.watcher);
-              watchPath(['.git', 'refs', 'remotes'], socket.watcher);
-              watchPath(['.git', 'refs', 'tags'], socket.watcher);
-              winston.info(`Start watching with .git and .git/refs/[heads|remotes|tags]`);
-            }
-          }).catch((err) =&gt; {
-            // Sometimes fs.watch crashes with errors such as ENOSPC (no space available)
-            // which is pretty weird, but hard to do anything about, so we just log them here.
-            usageStatistics.addEvent('fs-watch-exception');
-          }).finally(callback);
-      });
-    });
-  }
-
-  const stopDirectoryWatch = (socket) =&gt; {
-    socket.leave(socket.watcherPath);
-    socket.ignore = undefined;
-    (socket.watcher || []).forEach((watcher) =&gt; watcher.close());
-    winston.info(`Stop watching ${socket.watcherPath}`);
-  }
-
-  // The .git dir changes on for instance 'git status', so we
-  // can't trigger a change here (since that would lead to an endless
-  // loop of the client getting the change and then requesting the new data)
-  const isFileWatched = (filename, ignore) =&gt; {
-    if (ignore &amp;&amp; ignore.filter(filename).length == 0) {
-      return false;  // ignore files that are in .gitignore
-    } else if (filename.endsWith(".lock")) {
-      return false;
-    } else if (filename.startsWith(path.join(".git", "refs"))) {
-      return true;
-    } else if (filename == path.join(".git", "HEAD")) {
-      return true;   // Explicitly return true for ".git/HEAD" for branch changes
-    } else if (filename == ".git" || filename.startsWith(".git" + path.sep)) {
-      return false;  // Ignore changes under ".git/*"
-    } else {
-      return true;
-    }
-  }
-
-  const ensurePathExists = (req, res, next) =&gt; {
-    fs.isExists(req.query.path || req.body.path).then((isExists) =&gt; {
-      if (isExists) {
-        next();
-      } else {
-        res.status(400).json({ error: `'No such path: ${path}`, errorCode: 'no-such-path' });
-      }
-    });
-  }
-
-  const ensureValidSocketId = (req, res, next) =&gt; {
-    const socketId = re ...</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-ensureAuthenticated: ensureAuthenticated,
-config: config,
-pathPrefix: gitApi.pathPrefix,
-socketIO: io,
-socketsById: socketsById
-};
-
-gitApi.<span class="apidocCodeKeywordSpan">registerApi</span>(apiEnvironment);
-
-// Init plugins
-const loadPlugins = (plugins, pluginBasePath) =&gt; {
-fs.readdirSync(pluginBasePath).forEach((pluginDir) =&gt; {
-  const pluginPath = path.join(pluginBasePath, pluginDir);
-  // if not a directory or doesn't contain an ungit-plugin.json, just skip it.
-  if (!fs.lstatSync(pluginPath).isDirectory() ||
-...</pre></li>
-    </ul>
-
-
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.ungit.git_parser" id="apidoc.module.ungit.git_parser">module ungit.git_parser</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.git_parser.parseGitBranches" id="apidoc.element.ungit.git_parser.parseGitBranches">
-        function <span class="apidocSignatureSpan">ungit.git_parser.</span>parseGitBranches
-        <span class="apidocSignatureSpan">(text)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">(text) =&gt; {
-  const branches = [];
-  text.split('\n').forEach((row) =&gt; {
-    if (row.trim() == '') return;
-    const branch = { name: row.slice(2) };
-    if(row[0] == '*') branch.current = true;
-    branches.push(branch);
-  });
-  return branches;
+  graph.dimCommit(true);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -656,19 +222,16 @@ fs.readdirSync(pluginBasePath).forEach((pluginDir) =&gt; {
 
 
     <h2>
-        <a href="#apidoc.element.ungit.git_parser.parseGitConfig" id="apidoc.element.ungit.git_parser.parseGitConfig">
-        function <span class="apidocSignatureSpan">ungit.git_parser.</span>parseGitConfig
-        <span class="apidocSignatureSpan">(text)</span>
+        <a href="#apidoc.element.ungit.hover_actions.PushViewModel" id="apidoc.element.ungit.hover_actions.PushViewModel">
+        function <span class="apidocSignatureSpan">ungit.hover_actions.</span>PushViewModel
+        <span class="apidocSignatureSpan">(fromNode, toNode)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">(text) =&gt; {
-  const conf = {};
-  text.split('\n').forEach((row) =&gt; {
-    const ss = row.split('=');
-    conf[ss[0]] = ss[1];
-  });
-  return conf;
+    <li>description and source-code<pre class="apidocCodePre">function PushViewModel(fromNode, toNode) {
+  HoverViewModel.call(this);
+  this.fgEdges = [getEdgeModel(fromNode.cx(), fromNode.cy(), toNode.cx(), (toNode.cy() + 40), 'rgb(61, 139, 255)', '15', '10, 5', '
+url(#pushArrowEnd)' )];
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -676,105 +239,26 @@ fs.readdirSync(pluginBasePath).forEach((pluginDir) =&gt; {
 
 
     <h2>
-        <a href="#apidoc.element.ungit.git_parser.parseGitLog" id="apidoc.element.ungit.git_parser.parseGitLog">
-        function <span class="apidocSignatureSpan">ungit.git_parser.</span>parseGitLog
-        <span class="apidocSignatureSpan">(data)</span>
+        <a href="#apidoc.element.ungit.hover_actions.RebaseViewModel" id="apidoc.element.ungit.hover_actions.RebaseViewModel">
+        function <span class="apidocSignatureSpan">ungit.hover_actions.</span>RebaseViewModel
+        <span class="apidocSignatureSpan">(onto, nodesThatWillMove)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">(data) =&gt; {
-  const commits = [];
-  let currentCommmit;
-  const parseCommitLine = (row) =&gt; {
-    if (!row.trim()) return;
-    currentCommmit = { refs: [], fileLineDiffs: [] };
-    const refStartIndex = row.indexOf('(');
-    const sha1s = row.substring(0, refStartIndex &lt; 0 ? row.length : refStartIndex).split(' ').slice(1).filter((sha1) =&gt; { return
- sha1 &amp;&amp; sha1.length; });
-    currentCommmit.sha1 = sha1s[0];
-    currentCommmit.parents = sha1s.slice(1);
-    if (refStartIndex &gt; 0) {
-      const refs = row.substring(refStartIndex + 1, row.length - 1);
-      currentCommmit.refs = refs.split(/ -&gt; |, /g);
-    }
-    currentCommmit.isHead = !!_.find(currentCommmit.refs, (item) =&gt; { return item.trim() === 'HEAD' });
-    commits.isHeadExist = commits.isHeadExist || currentCommmit.isHead;
-    commits.push(currentCommmit);
-    parser = parseHeaderLine;
-  }
-  const parseHeaderLine = (row) =&gt; {
-    if (row.trim() == '') {
-      parser = parseCommitMessage;
-    } else {
-      for (const key in gitLogHeaders) {
-        if (row.indexOf(`${key}: `) == 0) {
-          gitLogHeaders[key](currentCommmit, row.slice((`${key}: `).length).trim());
-          return;
-        }
-      }
-    }
-  }
-  const parseCommitMessage = (row, index) =&gt; {
-    if (/[\d-]+\t[\d-]+\t.+/g.test(rows[index + 1])) {
-      parser = parseFileChanges;
-      return;
-    }
-    if (rows[index + 1] &amp;&amp; rows[index + 1].indexOf('commit ') == 0) {
-      parser = parseCommitLine;
-      return;
-    }
-    if (currentCommmit.message) currentCommmit.message += '\n';
-    else currentCommmit.message = '';
-    currentCommmit.message += row.trim();
-  }
-  const parseFileChanges = (row, index) =&gt; {
-    if (rows.length === index + 1 || rows[index + 1] &amp;&amp; rows[index + 1].indexOf('commit ') === 0) {
-      const total = [0, 0, 'Total'];
-      for (let n = 0; n &lt; currentCommmit.fileLineDiffs.length; n++) {
-        const fileLineDiff = currentCommmit.fileLineDiffs[n];
-        if (!isNaN(parseInt(fileLineDiff[0], 10))) {
-          total[0] += fileLineDiff[0] = parseInt(fileLineDiff[0], 10);
-        }
-        if (!isNaN(parseInt(fileLineDiff[1], 10))) {
-          total[1] += fileLineDiff[1] = parseInt(fileLineDiff[1], 10);
-        }
-      }
-      currentCommmit.fileLineDiffs.splice(0, 0, total);
-      parser = parseCommitLine;
-      return;
-    }
-    const splitted = row.split('\t');
-    splitted.push(fileType(splitted[2]));
-    currentCommmit.fileLineDiffs.push(splitted);
-  }
-  let parser = parseCommitLine;
-  const rows = data.split('\n');
-  rows.forEach((row, index) =&gt; {
-    parser(row, index);
-  });
+    <li>description and source-code<pre class="apidocCodePre">function RebaseViewModel(onto, nodesThatWillMove) {
+  var self = this;
+  HoverViewModel.call(this);
+  nodesThatWillMove = nodesThatWillMove.slice(0, -1);
 
-  commits.forEach((commit) =&gt; { commit.message = (typeof commit.message) === 'string' ? commit.message.trim() : ''; });
-  return commits;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
+  if (nodesThatWillMove.length == 0) return;
 
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.git_parser.parseGitLsRemote" id="apidoc.element.ungit.git_parser.parseGitLsRemote">
-        function <span class="apidocSignatureSpan">ungit.git_parser.</span>parseGitLsRemote
-        <span class="apidocSignatureSpan">(text)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">(text) =&gt; {
-  return text.split('\n').filter((item) =&gt; {
-    return item &amp;&amp; item.indexOf('From ') != 0;
-  }).map((line) =&gt; {
-    const sha1 = line.slice(0, 40);
-    const name = line.slice(41).trim();
-    return { sha1: sha1, name: name };
+  this.bgEdges.push(getEdgeModel(onto.cx(), onto.cy(), onto.cx(), onto.cy() - 60));
+  nodesThatWillMove.forEach(function(node, i) {
+    var cy = onto.cy() + (-90 * (i + 1));
+    self.nodes.push(getNodeModel(onto.cx(), cy, 28, 'transparent'));
+    if (i + 1 &lt; nodesThatWillMove.length) {
+      self.bgEdges.push(getEdgeModel(onto.cx(), (cy - 25), onto.cx(), (cy - 65)));
+    }
   });
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -783,1035 +267,22 @@ fs.readdirSync(pluginBasePath).forEach((pluginDir) =&gt; {
 
 
     <h2>
-        <a href="#apidoc.element.ungit.git_parser.parseGitRemotes" id="apidoc.element.ungit.git_parser.parseGitRemotes">
-        function <span class="apidocSignatureSpan">ungit.git_parser.</span>parseGitRemotes
-        <span class="apidocSignatureSpan">(text)</span>
+        <a href="#apidoc.element.ungit.hover_actions.ResetViewModel" id="apidoc.element.ungit.hover_actions.ResetViewModel">
+        function <span class="apidocSignatureSpan">ungit.hover_actions.</span>ResetViewModel
+        <span class="apidocSignatureSpan">(nodes)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">(text) =&gt; {
-  return text.split('\n')
-    .filter((remote) =&gt; { return remote != '' });
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
+    <li>description and source-code<pre class="apidocCodePre">function ResetViewModel(nodes) {
+  var self = this;
+  HoverViewModel.call(this);
 
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.git_parser.parseGitStashShow" id="apidoc.element.ungit.git_parser.parseGitStashShow">
-        function <span class="apidocSignatureSpan">ungit.git_parser.</span>parseGitStashShow
-        <span class="apidocSignatureSpan">(text)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">(text) =&gt; {
-  const lines = text.split('\n').filter((item) =&gt;  item );
-  return lines.slice(0, lines.length - 1).map((line) =&gt; {
-    return { filename: line.substring(0, line.indexOf('|')).trim() }
+  nodes.forEach(function(node) {
+    self.fgEdges.push(getEdgeModelWithD(node.getLeftToRightStrike(), 'rgb(255, 129, 31)', '8', '0, 0'))
+    self.fgEdges.push(getEdgeModelWithD(node.getRightToLeftStrike(), 'rgb(255, 129, 31)', '8', '0, 0'));
   });
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.git_parser.parseGitStatus" id="apidoc.element.ungit.git_parser.parseGitStatus">
-        function <span class="apidocSignatureSpan">ungit.git_parser.</span>parseGitStatus
-        <span class="apidocSignatureSpan">(text, args)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">(text, args) =&gt; {
-  const lines = text.split('\n');
-  const files = {};
-  // skipping first line...
-  lines.slice(1).forEach((line) =&gt; {
-    if (line == '') return;
-    const status = line.slice(0, 2);
-    const filename = line.slice(3).trim().replace(/^"(.*)"$/, '$1'); // may contain old and renamed file name.
-    const finalFilename = status[0] == 'R' ? filename.slice(filename.indexOf('&gt;') + 2) : filename;
-    files[finalFilename] = {
-      displayName: filename,
-      staged: status[0] == 'A' || status[0] == 'M',
-      removed: status[0] == 'D' || status[1] == 'D',
-      isNew: (status[0] == '?' || status[0] == 'A') &amp;&amp; !(status[0] == 'D' || status[1] == 'D'),
-      conflict: (status[0] == 'A' &amp;&amp; status[1] == 'A') || status[0] == 'U' || status[1] == 'U',
-      renamed: status[0] == 'R',
-      type: fileType(finalFilename)
-    };
-  });
-
-  return {
-    isMoreToLoad: false,
-    branch: lines[0].split(' ').pop(),
-    inited: true,
-    files: files
-  };
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.git_parser.parseGitStatusNumstat" id="apidoc.element.ungit.git_parser.parseGitStatusNumstat">
-        function <span class="apidocSignatureSpan">ungit.git_parser.</span>parseGitStatusNumstat
-        <span class="apidocSignatureSpan">(text)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">(text) =&gt; {
-  const result = {};
-  text.split('\n').forEach((line) =&gt; {
-    if (line == '') return;
-    const parts = line.split('\t');
-    result[parts[2]] = {
-      additions: parts[0],
-      deletions: parts[1]
-    };
-  });
-  return result;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.git_parser.parseGitSubmodule" id="apidoc.element.ungit.git_parser.parseGitSubmodule">
-        function <span class="apidocSignatureSpan">ungit.git_parser.</span>parseGitSubmodule
-        <span class="apidocSignatureSpan">(text, args)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">(text, args) =&gt; {
-  if (!text) {
-    return {};
-  }
-
-  let submodule;
-  const submodules = [];
-
-  text.trim().split('\n').filter((line) =&gt; line)
-  .forEach((line) =&gt; {
-    if (line.indexOf("[submodule") === 0) {
-      submodule = { name: line.match(/"(.*?)"/)[1] };
-      submodules.push(submodule);
-    } else {
-      const parts = line.split("=");
-      const key = parts[0].trim();
-      let value = parts.slice(1).join("=").trim();
-
-      if (key == "path") {
-        value = path.normalize(value);
-      } else if (key == "url") {
-        // keep a reference to the raw url
-        let url = submodule.rawUrl = value;
-
-        // When a repo is checkout with ssh or git instead of an url
-        if (url.indexOf('http') != 0) {
-          if (url.indexOf('git:') == 0) { // git
-            url = `http${url.substr(url.indexOf(':'))}`;
-          } else { // ssh
-            url = `http://${url.substr(url.indexOf('@') + 1).replace(':', '/')}`;
-          }
-        }
-
-        value = url;
-      }
-
-      submodule[key] = value;
-    }
-  });
-
-  return submodules;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.git_parser.parseGitTags" id="apidoc.element.ungit.git_parser.parseGitTags">
-        function <span class="apidocSignatureSpan">ungit.git_parser.</span>parseGitTags
-        <span class="apidocSignatureSpan">(text)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">(text) =&gt; {
-  return text.split('\n')
-    .filter((tag) =&gt; { return tag != '' });
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.git_parser.parsePatchDiffResult" id="apidoc.element.ungit.git_parser.parsePatchDiffResult">
-        function <span class="apidocSignatureSpan">ungit.git_parser.</span>parsePatchDiffResult
-        <span class="apidocSignatureSpan">(patchLineList, text)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">(patchLineList, text) =&gt; {
-  if (!text) return {};
-
-  const lines = text.trim().split('\n');
-  const result = [];
-  let ignoredDiffCountTotal = 0;
-  let ignoredDiffCountCurrent = 0;
-  let headerIndex = null;
-  let lastHeaderIndex = -1;
-  let n = 0;
-  let selectedLines = 0;
-
-  // first add all lines until diff block header is found
-  while (!/@@ -[0-9]+,[0-9]+ \+[0-9]+,[0-9]+ @@/.test(lines[n])) {
-    result.push(lines[n]);
-    n++;
-  }
-
-  // per rest of the lines
-  while (n &lt; lines.length) {
-    const line = lines[n];
-
-    if (/^[\-\+]/.test(line)) {
-      // Modified line
-      if (patchLineList.shift()) {
-        selectedLines++;
-        // diff is selected to be committed
-        result.push(line);
-      } else if (line[0] === '+') {
-        // added line diff is selected to be ignored
-        ignoredDiffCountCurrent++;
-      } else { // lines[0] === '-'
-        // deleted line diff is selected to be ignored
-        ignoredDiffCountCurrent--;
-        result.push(` ${line.slice(1)}`);
-      }
-    } else {
-      // none modified line or diff block header
-      if (/@@ -[0-9]+,[0-9]+ \+[0-9]+,[0-9]+ @@/.test(line)) {
-        // update previous header to match line numbers
-        if (lastHeaderIndex &gt; -1) {
-          updatePatchHeader(result, lastHeaderIndex, ignoredDiffCountTotal, ignoredDiffCountCurrent);
-        }
-        // diff block header
-        ignoredDiffCountTotal += ignoredDiffCountCurrent;
-        ignoredDiffCountCurrent = 0;
-        lastHeaderIndex = result.length;
-      }
-      result.push(line);
-    }
-    n++;
-  }
-
-  // We don't want to leave out last diff block header...
-  updatePatchHeader(result, lastHeaderIndex, ignoredDiffCountTotal, ignoredDiffCountCurrent);
-
-  if (selectedLines &gt; 0) {
-    return result.join('\n');
-  } else {
-    return null;
-  }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.ungit.git_promise" id="apidoc.module.ungit.git_promise">module ungit.git_promise</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.git_promise.git_promise" id="apidoc.element.ungit.git_promise.git_promise">
-        function <span class="apidocSignatureSpan">ungit.</span>git_promise
-        <span class="apidocSignatureSpan">(commands, repoPath, allowError, outPipe, inPipe, timeout)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">(commands, repoPath, allowError, outPipe, inPipe, timeout) =&gt; {
-  let args = {};
-  if (Array.isArray(commands)) {
-    args.commands = commands;
-    args.repoPath = repoPath;
-    args.outPipe = outPipe;
-    args.inPipe = inPipe;
-    args.allowError = allowError;
-  } else {
-    args = commands;
-  }
-
-  args.commands = gitConfigArguments.concat(args.commands.filter((element) =&gt; {
-    return element;
-  }));
-  args.timeout = args.timeout || 2 * 60 * 1000; // Default timeout tasks after 2 min
-  args.startTime = Date.now();
-
-  return gitExecutorProm(args, config.lockConflictRetryCount);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.git_promise.applyPatchedDiff" id="apidoc.element.ungit.git_promise.applyPatchedDiff">
-        function <span class="apidocSignatureSpan">ungit.git_promise.</span>applyPatchedDiff
-        <span class="apidocSignatureSpan">(repoPath, patchedDiff)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">(repoPath, patchedDiff) =&gt; {
-  if (patchedDiff) {
-    return git(['apply', '--cached'], repoPath, null, null, patchedDiff + '\n\n');
-  }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.git_promise.binaryFileContent" id="apidoc.element.ungit.git_promise.binaryFileContent">
-        function <span class="apidocSignatureSpan">ungit.git_promise.</span>binaryFileContent
-        <span class="apidocSignatureSpan">(repoPath, filename, version, outPipe)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">(repoPath, filename, version, outPipe) =&gt; {
-  return git(['show', `${version}:${filename}`], repoPath, null, outPipe);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-  var isIgnoreWhiteSpace = req.query.whiteSpace === "true" ? true : false;
-  jsonResultOrFailProm(res, gitPromise.diffFile(req.query.path, req.query.file, req.query.sha1, isIgnoreWhiteSpace));
-});
-
-app.get(`${exports.pathPrefix}/diff/image`, ensureAuthenticated, ensurePathExists, (req, res) =&gt; {
-  res.type(path.extname(req.query.filename));
-  if (req.query.version !== 'current') {
-    gitPromise.<span class="apidocCodeKeywordSpan">binaryFileContent</span>(req.query.path, req.query.filename, req.query.version
-, res);
-  } else {
-    res.sendFile(path.join(req.query.path, req.query.filename));
-  }
-});
-
-app.post(`${exports.pathPrefix}/discardchanges`, ensureAuthenticated, ensurePathExists, (req, res) =&gt; {
-  const task = req.body.all ? gitPromise.discardAllChanges(req.body.path) : gitPromise.discardChangesInFile(req.body.path, req.body
-.file.trim());
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.git_promise.commit" id="apidoc.element.ungit.git_promise.commit">
-        function <span class="apidocSignatureSpan">ungit.git_promise.</span>commit
-        <span class="apidocSignatureSpan">(repoPath, amend, message, files)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">(repoPath, amend, message, files) =&gt; {
-  return (new Bluebird((resolve, reject) =&gt; {
-    if (message == undefined) {
-      reject({ error: 'Must specify commit message' });
-    }
-    if ((!(Array.isArray(files)) || files.length == 0) &amp;&amp; !amend) {
-      reject({ error: 'Must specify files or amend to commit' });
-    }
-    resolve();
-  })).then(() =&gt; {
-    return git.status(repoPath);
-  }).then((status) =&gt; {
-    const toAdd = [];
-    const toRemove = [];
-    const diffPatchPromises = []; // promiese that patches each files individually
-
-    for (let v in files) {
-      let file = files[v];
-      let fileStatus = status.files[file.name] || status.files[path.relative(repoPath, file.name)];
-      if (!fileStatus) {
-        throw { error: `No such file in staging: ${file.name}` };
-      }
-
-      if (fileStatus.removed) {
-        toRemove.push(file.name.trim());
-      } else if (files[v].patchLineList) {
-        diffPatchPromises.push(git(['diff', '--', file.name.trim()], repoPath)
-          .then(gitParser.parsePatchDiffResult.bind(null, file.patchLineList))
-          .then(git.applyPatchedDiff.bind(null, repoPath)));
-      } else {
-        toAdd.push(file.name.trim());
-      }
-    }
-
-    let commitPromiseChain = Bluebird.resolve()
-      .then(() =&gt; {
-        if (toRemove.length &gt; 0) return git(['update-index', '--remove', '--stdin'], repoPath, null, null, toRemove.join('\n'));
-      }).then(() =&gt; {
-        if (toAdd.length &gt; 0) return git(['update-index', '--add', '--stdin'], repoPath, null, null, toAdd.join('\n'));
-      });
-
-    return Bluebird.join(commitPromiseChain, Bluebird.all(diffPatchPromises));
-  }).then(() =&gt; {
-    return git(['commit', (amend ? '--amend' : ''), '--file=-'], repoPath, null, null, message);
-  }).catch((err) =&gt; {
-    // ignore the case where nothing were added to be committed
-    if (!err.stdout || err.stdout.indexOf("Changes not staged for commit") === -1) {
-      throw err;
-    }
-  });
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-    .catch((err) =&gt; { throw { errorCode: 'error-appending-ignore', error: 'Error while appending to .gitignore
- file.' }});
-
-  jsonResultOrFailProm(res, task)
-    .finally(emitWorkingTreeChanged.bind(null, req.body.path));
-});
-
-app.post(`${exports.pathPrefix}/commit`, ensureAuthenticated, ensurePathExists, (req, res) =&gt; {
-  jsonResultOrFailProm(res, gitPromise.<span class="apidocCodeKeywordSpan">commit</span>(req.body.path, req.body.amend, req.body
-.message, req.body.files))
-    .then(emitGitDirectoryChanged.bind(null, req.body.path))
-    .then(emitWorkingTreeChanged.bind(null, req.body.path));
-});
-
-app.post(`${exports.pathPrefix}/revert`, ensureAuthenticated, ensurePathExists, (req, res) =&gt; {
-  const task = gitPromise(['revert', req.body.commit], req.body.path)
-    .catch(e =&gt; {
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.git_promise.diffFile" id="apidoc.element.ungit.git_promise.diffFile">
-        function <span class="apidocSignatureSpan">ungit.git_promise.</span>diffFile
-        <span class="apidocSignatureSpan">(repoPath, filename, sha1, ignoreWhiteSpace)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">(repoPath, filename, sha1, ignoreWhiteSpace) =&gt; {
-  const newFileDiffArgs = ['diff', '--no-index', isWindows ? 'NUL' : '/dev/null', filename.trim()];
-  return git.revParse(repoPath)
-    .then((revParse) =&gt; { return revParse.type === 'bare' ? { files: {} } : git.status(repoPath) }) // if bare do not call status
-    .then((status) =&gt; {
-      const file = status.files[filename];
-
-      if (!file &amp;&amp; !sha1) {
-        return fs.isExists(path.join(repoPath, filename))
-          .then((isExist) =&gt; {
-            if (isExist) return [];
-            else throw { error: `No such file: ${filename}`, errorCode: 'no-such-file' };
-          });
-        // If the file is new or if it's a directory, i.e. a submodule
-      } else {
-        let exec;
-        if (file &amp;&amp; file.isNew) {
-          exec = git(newFileDiffArgs, repoPath, true);
-        } else if (sha1) {
-          exec = git(['diff', ignoreWhiteSpace ? '-w' : '', `${sha1}^`, sha1, "--", filename.trim()], repoPath);
-        } else {
-          exec = git(['diff', ignoreWhiteSpace ? '-w' : '', 'HEAD', '--', filename.trim()], repoPath);
-        }
-        return exec.catch((err) =&gt; {
-          // when &lt;rev&gt; is very first commit and 'diff &lt;rev&gt;~1:[file] &lt;rev&gt;:[file]' is performed,
-          // it will error out with invalid object name error
-          if (sha1 &amp;&amp; err &amp;&amp; err.error.indexOf('bad revision') &gt; -1)
-            return git(newFileDiffArgs, repoPath, true);
-        });
-      }
-    });
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-  jsonResultOrFailProm(res, autoStashExecuteAndPop(['reset', `--${req.body.mode}`, req.body.to], req.body.path))
-    .then(emitGitDirectoryChanged.bind(null, req.body.path))
-    .then(emitWorkingTreeChanged.bind(null, req.body.path));
-});
-
-app.get(`${exports.pathPrefix}/diff`, ensureAuthenticated, ensurePathExists, (req, res) =&gt; {
-  var isIgnoreWhiteSpace = req.query.whiteSpace === "true" ? true : false;
-  jsonResultOrFailProm(res, gitPromise.<span class="apidocCodeKeywordSpan">diffFile</span>(req.query.path, req.query.file, req.query
-.sha1, isIgnoreWhiteSpace));
-});
-
-app.get(`${exports.pathPrefix}/diff/image`, ensureAuthenticated, ensurePathExists, (req, res) =&gt; {
-  res.type(path.extname(req.query.filename));
-  if (req.query.version !== 'current') {
-    gitPromise.binaryFileContent(req.query.path, req.query.filename, req.query.version, res);
-  } else {
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.git_promise.discardAllChanges" id="apidoc.element.ungit.git_promise.discardAllChanges">
-        function <span class="apidocSignatureSpan">ungit.git_promise.</span>discardAllChanges
-        <span class="apidocSignatureSpan">(repoPath)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">(repoPath) =&gt; {
-  return git(['reset', '--hard', 'HEAD'], repoPath)
-    .then(() =&gt; { return git(['clean', '-fd'], repoPath) });
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-    gitPromise.binaryFileContent(req.query.path, req.query.filename, req.query.version, res);
-  } else {
-    res.sendFile(path.join(req.query.path, req.query.filename));
-  }
-});
-
-app.post(`${exports.pathPrefix}/discardchanges`, ensureAuthenticated, ensurePathExists, (req, res) =&gt; {
-  const task = req.body.all ? gitPromise.<span class="apidocCodeKeywordSpan">discardAllChanges</span>(req.body.path) : gitPromise
-.discardChangesInFile(req.body.path, req.body.file.trim());
-  jsonResultOrFailProm(res, task.then(emitWorkingTreeChanged.bind(null, req.body.path)));
-});
-
-app.post(`${exports.pathPrefix}/ignorefile`, ensureAuthenticated, ensurePathExists, (req, res) =&gt; {
-  const currentPath = req.body.path.trim();
-  const gitIgnoreFile = `${currentPath}/.gitignore`;
-  const ignoreFile = req.body.file.trim();
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.git_promise.discardChangesInFile" id="apidoc.element.ungit.git_promise.discardChangesInFile">
-        function <span class="apidocSignatureSpan">ungit.git_promise.</span>discardChangesInFile
-        <span class="apidocSignatureSpan">(repoPath, filename)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">(repoPath, filename) =&gt; {
-  return git.status(repoPath, filename)
-    .then((status) =&gt; {
-      if (Object.keys(status.files).length == 0) throw new Error(`No files in status in discard, filename: ${filename}`);
-      const fileStatus = status.files[Object.keys(status.files)[0]];
-
-      if (!fileStatus.staged) {
-        // If it's just a new file, remove it
-        if (fileStatus.isNew) {
-          return fs.unlinkAsync(path.join(repoPath, filename))
-            .catch((err) =&gt; {
-              throw { command: 'unlink', error: err };
-            });
-        // If it's a changed file, reset the changes
-        } else {
-          return git(['checkout', 'HEAD', '--', filename], repoPath);
-        }
-      } else {
-        return git(['rm', '-f', filename], repoPath);
-      }
-    });
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-    gitPromise.binaryFileContent(req.query.path, req.query.filename, req.query.version, res);
-  } else {
-    res.sendFile(path.join(req.query.path, req.query.filename));
-  }
-});
-
-app.post(`${exports.pathPrefix}/discardchanges`, ensureAuthenticated, ensurePathExists, (req, res) =&gt; {
-  const task = req.body.all ? gitPromise.discardAllChanges(req.body.path) : gitPromise.<span class="apidocCodeKeywordSpan">discardChangesInFile
-</span>(req.body.path, req.body.file.trim());
-  jsonResultOrFailProm(res, task.then(emitWorkingTreeChanged.bind(null, req.body.path)));
-});
-
-app.post(`${exports.pathPrefix}/ignorefile`, ensureAuthenticated, ensurePathExists, (req, res) =&gt; {
-  const currentPath = req.body.path.trim();
-  const gitIgnoreFile = `${currentPath}/.gitignore`;
-  const ignoreFile = req.body.file.trim();
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.git_promise.getCurrentBranch" id="apidoc.element.ungit.git_promise.getCurrentBranch">
-        function <span class="apidocSignatureSpan">ungit.git_promise.</span>getCurrentBranch
-        <span class="apidocSignatureSpan">(repoPath)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">(repoPath) =&gt; {
-  return git.revParse(repoPath).then(revResult =&gt; {
-    const HEADFile = path.join(revResult.gitRootPath, '.git', 'HEAD');
-    return fs.isExists(HEADFile).then(isExist =&gt; {
-      if (!isExist) throw { errorCode: 'not-a-repository', error: `No such file: ${HEADFile}` };
-    }).then(() =&gt; {
-      return fs.readFileAsync(HEADFile, { encoding: 'utf8' });
-    }).then(text =&gt; {
-      const rows = text.toString().split('\n');
-      return rows[0].slice('ref: refs/heads/'.length);
-    });
-  });
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-app.post(`${exports.pathPrefix}/cherrypick`, ensureAuthenticated, ensurePathExists, (req, res) =&gt; {
-  jsonResultOrFailProm(res, autoStashExecuteAndPop(['cherry-pick', req.body.name.trim()], req.body.path))
-    .then(emitGitDirectoryChanged.bind(null, req.body.path))
-    .then(emitWorkingTreeChanged.bind(null, req.body.path));
-});
-
-app.get(`${exports.pathPrefix}/checkout`, ensureAuthenticated, ensurePathExists, (req, res) =&gt; {
-  jsonResultOrFailProm(res, gitPromise.<span class="apidocCodeKeywordSpan">getCurrentBranch</span>(req.query.path));
-});
-
-app.get(`${exports.pathPrefix}/remotes`, ensureAuthenticated, ensurePathExists, (req, res) =&gt; {
-  jsonResultOrFailProm(res, gitPromise(['remote'], req.query.path).then(gitParser.parseGitRemotes));
-});
-
-app.get(`${exports.pathPrefix}/remotes/:name`, ensureAuthenticated, ensurePathExists, (req, res) =&gt; {
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.git_promise.getRemoteAddress" id="apidoc.element.ungit.git_promise.getRemoteAddress">
-        function <span class="apidocSignatureSpan">ungit.git_promise.</span>getRemoteAddress
-        <span class="apidocSignatureSpan">(repoPath, remoteName)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">(repoPath, remoteName) =&gt; {
-  return git(['config', '--get', `remote.${remoteName}.url`], repoPath)
-    .then((text) =&gt; addressParser.parseAddress(text.split('\n')[0]));
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-});
-
-app.get(`${exports.pathPrefix}/remotes`, ensureAuthenticated, ensurePathExists, (req, res) =&gt; {
-  jsonResultOrFailProm(res, gitPromise(['remote'], req.query.path).then(gitParser.parseGitRemotes));
-});
-
-app.get(`${exports.pathPrefix}/remotes/:name`, ensureAuthenticated, ensurePathExists, (req, res) =&gt; {
-  jsonResultOrFailProm(res, gitPromise.<span class="apidocCodeKeywordSpan">getRemoteAddress</span>(req.query.path, req.params.name
-));
-});
-
-app.post(`${exports.pathPrefix}/remotes/:name`, ensureAuthenticated, ensurePathExists, (req, res) =&gt; {
-  jsonResultOrFailProm(res, gitPromise(['remote', 'add', req.params.name, req.body.url], req.body.path));
-});
-
-app.delete(`${exports.pathPrefix}/remotes/:name`, ensureAuthenticated, ensurePathExists, (req, res) =&gt; {
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.git_promise.log" id="apidoc.element.ungit.git_promise.log">
-        function <span class="apidocSignatureSpan">ungit.git_promise.</span>log
-        <span class="apidocSignatureSpan">(path, limit, skip, maxSearchIteration)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">(path, limit, skip, maxSearchIteration) =&gt; {
-  return git(['log', '--decorate=full', '--date=default', '--pretty=fuller', '--branches', '--tags', '--remotes', '--parents', '--
-no-notes', '--numstat', '--date-order', `--max-count=${limit}`, `--skip=${skip}`], path)
-    .then(gitParser.parseGitLog)
-    .then((log) =&gt; {
-      log = log ? log : [];
-      if (config.alwaysLoadActiveBranch &amp;&amp; !log.isHeadExist &amp;&amp; maxSearchIteration) {
-        if (maxSearchIteration - 1) {
-          return git.log(path, config.numberOfNodesPerLoad + limit, config.numberOfNodesPerLoad + skip, maxSearchIteration - 1);
-        } else {
-          return git.log(path, config.numberOfNodesPerLoad, 0, maxSearchIteration - 1);
-        }
-      } else {
-        return { "limit": limit, "skip": skip, "nodes": log};
-      }
-    });
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-    .finally(emitGitDirectoryChanged.bind(null, req.body.path))
-    .finally(emitWorkingTreeChanged.bind(null, req.body.path));
-});
-
-app.get(`${exports.pathPrefix}/log`, ensureAuthenticated, ensurePathExists, (req, res) =&gt; {
-  const limit = getNumber(req.query.limit, config.numberOfNodesPerLoad || 25);
-  const skip = getNumber(req.query.skip, 0);
-  const task = gitPromise.<span class="apidocCodeKeywordSpan">log</span>(req.query.path, limit, skip, 100)
-    .catch((err) =&gt; {
-      if (err.stderr &amp;&amp; err.stderr.indexOf('fatal: bad default revision \'HEAD\'') == 0) {
-        return { "limit": limit, "skip": skip, "nodes": []};
-      } else if (/fatal: your current branch \'.+\' does not have any commits yet.*/.test(err.stderr)) {
-        return { "limit": limit, "skip": skip, "nodes": []};
-      } else if (err.stderr &amp;&amp; err.stderr.indexOf('fatal: Not a git repository') == 0) {
-        return { "limit": limit, "skip": skip, "nodes": []};
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.git_promise.resolveConflicts" id="apidoc.element.ungit.git_promise.resolveConflicts">
-        function <span class="apidocSignatureSpan">ungit.git_promise.</span>resolveConflicts
-        <span class="apidocSignatureSpan">(repoPath, files)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">(repoPath, files) =&gt; {
-  const toAdd = [];
-  const toRemove = [];
-  return Bluebird.all((files || []).map((file) =&gt; {
-    return fs.isExists(path.join(repoPath, file)).then((isExist) =&gt; {
-      if (isExist) {
-        toAdd.push(file);
-      } else {
-        toRemove.push(file);
-      }
-    });
-  })).then(() =&gt; {
-    const addExec = toAdd.length &gt; 0 ? git(['add', toAdd ], repoPath) : null;
-    const removeExec = toRemove.length &gt; 0 ? git(['rm', toRemove ], repoPath) : null;
-    return Bluebird.join(addExec, removeExec);
-  });
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-  jsonResultOrFailProm(res, gitPromise(['rebase', '--abort'], req.body.path))
-    .finally(emitGitDirectoryChanged.bind(null, req.body.path))
-    .finally(emitWorkingTreeChanged.bind(null, req.body.path));
-});
-
-app.post(`${exports.pathPrefix}/resolveconflicts`, ensureAuthenticated, ensurePathExists, (req, res) =&gt; {
-  console.log('resolve conflicts');
-  jsonResultOrFailProm(res, gitPromise.<span class="apidocCodeKeywordSpan">resolveConflicts</span>(req.body.path, req.body.files
-))
-    .then(emitWorkingTreeChanged.bind(null, req.body.path));
-});
-
-app.post(`${exports.pathPrefix}/launchmergetool`, ensureAuthenticated, ensurePathExists, (req, res) =&gt; {
-  const commands = ['mergetool', ...(typeof req.body.tool === 'string'? ['--tool ', req.body.tool]: []), &amp;#
-x27;--no-prompt', req.body.file];
-  gitPromise(commands, req.body.path);
-  // Send immediate response, this is because merging may take a long time
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.git_promise.revParse" id="apidoc.element.ungit.git_promise.revParse">
-        function <span class="apidocSignatureSpan">ungit.git_promise.</span>revParse
-        <span class="apidocSignatureSpan">(repoPath)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">(repoPath) =&gt; {
-  return git(['rev-parse', '--is-inside-work-tree', '--is-bare-repository', '--show-toplevel'], repoPath)
-    .then((result) =&gt; {
-      const resultLines = result.toString().split('\n');
-      const rootPath = path.normalize(resultLines[2] ? resultLines[2] : repoPath);
-      if (resultLines[0].indexOf('true') &gt; -1) {
-        return { type: 'inited', gitRootPath: rootPath };
-      } else if (resultLines[1].indexOf('true') &gt; -1) {
-        return { type: 'bare', gitRootPath: rootPath };
-      }
-      return { type: 'uninited', gitRootPath: rootPath };
-    }).catch((err) =&gt; ({ type: 'uninited', gitRootPath: path.normalize(repoPath) }));
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-  jsonResultOrFailProm(res, task);
-});
-
-app.get(`${exports.pathPrefix}/quickstatus`, ensureAuthenticated, (req, res) =&gt; {
-  const task = fs.isExists(req.query.path)
-    .then((exists) =&gt; {
-      return exists ? gitPromise.<span class="apidocCodeKeywordSpan">revParse</span>(req.query.path) : { type: 'no-such-path
-', gitRootPath: req.query.path };
-    })
-  jsonResultOrFailProm(res, task);
-});
-
-app.get(`${exports.pathPrefix}/stashes`, ensureAuthenticated, ensurePathExists, (req, res) =&gt; {
-  const task = gitPromise(['stash', 'list', '--decorate=full', '--pretty=fuller', '--
-parents', '--numstat'], req.query.path)
-    .then(gitParser.parseGitLog);
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.git_promise.stashExecuteAndPop" id="apidoc.element.ungit.git_promise.stashExecuteAndPop">
-        function <span class="apidocSignatureSpan">ungit.git_promise.</span>stashExecuteAndPop
-        <span class="apidocSignatureSpan">(commands, repoPath, allowError, outPipe, inPipe, timeout)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">(commands, repoPath, allowError, outPipe, inPipe, timeout) =&gt; {
-  let hadLocalChanges = true;
-
-  return git(['stash'], repoPath)
-    .catch((err) =&gt; {
-      if (err.stderr.indexOf('You do not have the initial commit yet') != -1) {
-        hadLocalChanges = err.stderr.indexOf('You do not have the initial commit yet') == -1;
-      } else {
-        throw err;
-      }
-    }).then((result) =&gt; {
-      if (!result || result.indexOf('No local changes to save') != -1) {
-        hadLocalChanges = false;
-      }
-      return git(commands, repoPath, allowError, outPipe, inPipe, timeout);
-    }).then(() =&gt; { return hadLocalChanges ? git(['stash', 'pop'], repoPath) : null });
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-    io.sockets.in(path.normalize(repoPath)).emit('git-directory-changed', { repository: repoPath });
-    winston.info('emitting git-directory-changed to sockets, manually triggered');
-  }
-}, 250, { 'maxWait': 1000 })
-
-const autoStashExecuteAndPop = (commands, repoPath, allowedCodes, outPipe, inPipe, timeout) =&gt; {
-  if (config.autoStashAndPop) {
-    return gitPromise.<span class="apidocCodeKeywordSpan">stashExecuteAndPop</span>(commands, repoPath, allowedCodes, outPipe, inPipe
-, timeout);
-  } else {
-    return gitPromise(commands, repoPath, allowedCodes, outPipe, inPipe, timeout);
-  }
-}
-
-const jsonResultOrFailProm = (res, promise) =&gt; {
-  return promise.then((result) =&gt; {
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.git_promise.status" id="apidoc.element.ungit.git_promise.status">
-        function <span class="apidocSignatureSpan">ungit.git_promise.</span>status
-        <span class="apidocSignatureSpan">(repoPath, file)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">(repoPath, file) =&gt; {
-  return Bluebird.props({
-    numStatsStaged: git(['diff', '--no-renames', '--numstat', '--cached', '--', (file || '')], repoPath)
-      .then(gitParser.parseGitStatusNumstat),
-    numStatsUnstaged: git(['diff', '--no-renames', '--numstat', '--', (file || '')], repoPath)
-      .then(gitParser.parseGitStatusNumstat),
-    status: git(['status', '-s', '-b', '-u', (file || '')], repoPath)
-      .then(gitParser.parseGitStatus)
-      .then((status) =&gt; {
-        return Bluebird.props({
-          isRebaseMerge: fs.isExists(path.join(repoPath, '.git', 'rebase-merge')),
-          isRebaseApply: fs.isExists(path.join(repoPath, '.git', 'rebase-apply')),
-          isMerge: fs.isExists(path.join(repoPath, '.git', 'MERGE_HEAD')),
-          inCherry: fs.isExists(path.join(repoPath, '.git', 'CHERRY_PICK_HEAD'))
-        }).then((result) =&gt; {
-          status.inRebase = result.isRebaseMerge || result.isRebaseApply;
-          status.inMerge = result.isMerge;
-          status.inCherry = result.inCherry;
-        }).then(() =&gt; {
-          if (status.inMerge || status.inCherry) {
-            return fs.readFileAsync(path.join(repoPath, '.git', 'MERGE_MSG'), { encoding: 'utf8' })
-              .then((commitMessage) =&gt; {
-                status.commitMessage = commitMessage;
-                return status;
-              }).catch(err =&gt; {
-                // 'MERGE_MSG' file is gone away, which means we are no longer in merge state
-                // and state changed while this call is being made.
-                status.inMerge = status.inCherry = false;
-                return status;
-              });
-          }
-          return status;
-        });
-      })
-  }).then((result) =&gt; {
-    const numstats = [result.numStatsStaged, result.numStatsUnstaged].reduce(_.extend, {});
-    const status = result.status;
-    status.inConflict = false;
-
-    // merge numstats
-    Object.keys(status.files).forEach((filename) =&gt; {
-      // git diff returns paths relative to git repo but git status does not
-      const absoluteFilename = filename.replace(/\.\.\//g, '');
-      const stats = numstats[absoluteFilename] || { additions: '-', deletions: '-' };
-      const fileObj = status.files[filename];
-      fileObj.additions = stats.additions;
-      fileObj.deletions = stats.deletions;
-      if (!status.inConflict &amp;&amp; fileObj.conflict) {
-        status.inConflict = true;
-      }
-    });
-
-    return status;
-  });
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-}
-
-const ensurePathExists = (req, res, next) =&gt; {
-  fs.isExists(req.query.path || req.body.path).then((isExists) =&gt; {
-    if (isExists) {
-      next();
-    } else {
-      res.<span class="apidocCodeKeywordSpan">status</span>(400).json({ error: `'No such path: ${path}`, errorCode: 'no
--such-path' });
-    }
-  });
-}
-
-const ensureValidSocketId = (req, res, next) =&gt; {
-  const socketId = req.query.socketId || req.body.socketId;
-  if (socketId == 'ignore') return next(); // Used in unit tests
-...</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.ungit.sysinfo" id="apidoc.module.ungit.sysinfo">module ungit.sysinfo</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.sysinfo.getGitVersionInfo" id="apidoc.element.ungit.sysinfo.getGitVersionInfo">
-        function <span class="apidocSignatureSpan">ungit.sysinfo.</span>getGitVersionInfo
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">() =&gt; {
-  const result = {
-    requiredVersion: '&gt;=1.8.x',
-    version: 'unkown',
-    satisfied: false
-  };
-
-  if (!config.gitVersion) {
-    result.error = `Failed to parse git version number. Note that Ungit requires git version ${result.requiredVersion}`;
-  } else {
-    result.version = config.gitVersion;
-    result.satisfied = semver.satisfies(result.version, result.requiredVersion);
-    if (!result.satisfied) {
-      result.error = `Ungit requires git version ${result.requiredVersion}, you are currently running ${result.version}`;
-    }
-  }
-
-  return Bluebird.resolve(result);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-    res.json({ latestVersion: config.ungitDevVersion, currentVersion: config.ungitDevVersion, outdated: false });
-  });
-});
-
-app.get('/api/ping', (req, res) =&gt; res.json({}));
-
-app.get('/api/gitversion', (req, res) =&gt; {
-sysinfo.<span class="apidocCodeKeywordSpan">getGitVersionInfo</span>().then((result) =&gt; res.json(result));
-});
-
-const userConfigPath = path.join(config.homedir, '.ungitrc');
-const readUserConfig = () =&gt; {
-return fs.isExists(userConfigPath).then((hasConfig) =&gt; {
-  if (!hasConfig) return {};
-  return fs.readFileAsync(userConfigPath, { encoding: 'utf8' })
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.sysinfo.getUngitLatestVersion" id="apidoc.element.ungit.sysinfo.getUngitLatestVersion">
-        function <span class="apidocSignatureSpan">ungit.sysinfo.</span>getUngitLatestVersion
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">() =&gt; {
-  return new Bluebird((resolve, reject) =&gt; {
-    npm.load({}, (err, config) =&gt; {
-      if (err) return reject(err);
-      config.log = { error: noop, warn: noop, info: noop,
-               verbose: noop, silly: noop, http: noop,
-               pause: noop, resume: noop };
-      resolve(new RegClient(config));
-    });
-  }).then((client) =&gt; {
-    return new Bluebird((resolve, reject) =&gt; {
-      client.get('https://registry.npmjs.org/ungit', { timeout: 1000 }, (err, data, raw, res) =&gt; {
-        if (err) {
-          reject(err);
-        } else {
-          const versions = Object.keys(data.versions);
-          resolve(versions[versions.length - 1]);
-        }
-      });
-    });
-  });
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-      `ungit.platform = "${os.platform()}"\n` +
-      `ungit.pluginApiVersion = "${require('../package.json').ungitPluginApiVersion}"\n`;
-    res.send(text);
-  });
-});
-
-app.get('/api/latestversion', (req, res) =&gt; {
-sysinfo.<span class="apidocCodeKeywordSpan">getUngitLatestVersion</span>()
-  .then((latestVersion) =&gt; {
-    if (!semver.valid(config.ungitDevVersion)) {
-      res.json({
-        latestVersion: latestVersion,
-        currentVersion: config.ungitDevVersion,
-        outdated: false
-      });
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.ungit.sysinfo.getUserHash" id="apidoc.element.ungit.sysinfo.getUserHash">
-        function <span class="apidocSignatureSpan">ungit.sysinfo.</span>getUserHash
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">() =&gt; {
-  return new Bluebird((resolve) =&gt; {
-    getmac.getMac((err, addr) =&gt; {
-      if (err) {
-        winston.error("attempt to get mac addr failed, using fake mac.", err);
-        addr = "abcde";
-      }
-      resolve(md5(addr));
-    });
-  });
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-  this.subsystem = subsystem;
-  this.appVersion = 'unknown';
-  this.userHash = 'unkown';
-  this.appVersion = config.ungitDevVersion;
-  winston.info(`BugTracker set version: ${this.appVersion}`);
-
-  sysinfo.<span class="apidocCodeKeywordSpan">getUserHash</span>()
-    .then((userHash) =&gt; {
-      this.userHash = userHash;
-      winston.info('BugTracker set user hash');
-    });
-}
-notify(exception, clientName) {
-  if (!config.bugtracking) return;
-...</pre></li>
     </ul>
 
 
