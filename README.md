@@ -1,6 +1,6 @@
 # npmdoc-ungit
 
-#### basic api documentation for  [ungit (v1.1.14)](https://github.com/FredrikNoren/ungit#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-ungit.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ungit) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ungit.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ungit)
+#### basic api documentation for  [ungit (v1.1.15)](https://github.com/FredrikNoren/ungit#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-ungit.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ungit) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ungit.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ungit)
 
 #### Git made easy
 
@@ -46,6 +46,7 @@
         "getmac": "~1.2.1",
         "hasher": "~1.2.0",
         "ignore": "~3.2.6",
+        "just-detect-adblock": "^1.0.0",
         "keen.io": "~0.1.3",
         "knockout": "~3.4.2",
         "lodash": "~4.17.4",
@@ -101,13 +102,13 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "e65f05f541bc8b829f9720f28e74c4a12c7b6dd2",
-        "tarball": "https://registry.npmjs.org/ungit/-/ungit-1.1.14.tgz"
+        "shasum": "719de5908e688790a754b56b67f2669f0558ac02",
+        "tarball": "https://registry.npmjs.org/ungit/-/ungit-1.1.15.tgz"
     },
     "engines": {
         "node": ">=0.10"
     },
-    "gitHead": "cf45b289cd81891f5af33a370bc20c5baf20a60e",
+    "gitHead": "8045a735b52046adb134075513e8926cdbd13d66",
     "homepage": "https://github.com/FredrikNoren/ungit#readme",
     "license": "MIT",
     "main": "public/main.js",
@@ -128,7 +129,7 @@
         "test": "grunt test"
     },
     "ungitPluginApiVersion": "0.2.0",
-    "version": "1.1.14",
+    "version": "1.1.15",
     "window": {
         "title": "Ungit",
         "icon": "icon.png",
